@@ -3,11 +3,8 @@
 # y no obtener errores ni warnings.
 
 def par(x)
-  if x % 2 == 0
-    return true
-  else
-    return false
-  end
+  # (condición)? "respuesta verdadera" : "Respuesta falsa" 
+  x % 2 == 0 ? true : false
 end
 
 puts par(2)

@@ -5,3 +5,8 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def busq_caracter(x, y)
+    x.include? y
+end
+puts busq_caracter(cadena,caracter)

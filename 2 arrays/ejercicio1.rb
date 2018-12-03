@@ -6,3 +6,16 @@
 # 5. Mostrar en pantalla todos los elementos que se encuentren en una posición par.
 
 arreglo = [1,2,3,9,1,4,5,2,3,6,6]
+
+# puts arreglo[0]
+# puts arreglo[-1]
+# puts arreglo
+# arreglo.each_with_index do |elemento, indice|
+#     puts "#{elemento} esta en la posición #{indice}"
+# end
+
+arreglo.each_with_index do |elemento,indice|
+    puts "#{elemento}" if indice.even?
+end
+
+
